@@ -26,12 +26,6 @@ pipeline {
         sh 'docker build -t jasdhir/emp-rest:latest .'
       }
         }*/
-//
-//      stage('Execute Jar'){
-//         steps{
-//             bat 'java -jar target/spring-rest-jpa-0.0.1-SNAPSHOT.jar'
-//         }
-     }
 
   }
 }
